@@ -1,0 +1,196 @@
+.logoimage{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.copyright{
+    text-align: center;
+}
+.head{
+   text-align: center;
+   background-color: transparent; 
+  
+}
+.box7{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+}
+
+.font{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.desc{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.container4{
+    margin: 60px auto 0 auto;
+    width: 57%;
+   border-radius: 10px;
+}
+.sub-four {
+    display: flex;
+    flex-direction: column;
+}
+.four {
+    padding: 10px 10px 10px 10px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    margin-top: 10px;
+   color: black;
+}
+
+.size{
+    font-size: 3rem;
+}
+.bold{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.box2{
+    padding: 14px;
+    padding-left: 0px;
+}
+p{
+    margin-bottom: 0px;
+   text-align: left;
+}
+.container3{
+    text-align: center;
+}
+.container1,.container2,.box6{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.box8{
+    text-align: center;
+    margin: 60px auto 0 auto;
+    margin-top: 12% !important;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgba(240, 248, 255, 0.477);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.container4{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.box5{
+    color: black !important;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+   height: 200px;
+   margin: 10px;
+   box-shadow:
+   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+   0 12.5px 10px rgba(0, 0, 0, 0.06),
+   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+   0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: rgba(250, 250, 250, 0.347);
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+h2,h4{
+    text-align: center;
+}
+.today{
+    font-size: 1.6rem;
+    
+}
+.sub-four {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.486);
+}
+.sub1,.sub2,.sub3,.sub4,.sub5{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.search1{
+    font-size: 2rem;
+    
+}
+body{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding:0;
+    background-attachment: fixed;
+    margin:0;
+    color: white;
+    background-image: url('https://cutewallpaper.org/25/anime-wallpaper-view-back/971221823.jpg');
+    background-color: rgb(14, 29, 43);
+   
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .search1{
+        font-size: 1.4rem;   
+    }
+}
+@media screen and (max-width: 600px)  {
+    .search1{
+        font-size: 1.2rem;   
+    }
+    .box5{
+        height: 150px;
+        width: 150px;
+        margin-top: 20px;
+    }
+    .box7{
+        margin-top: 50px;
+    }
+    .container4{
+        margin: 10px auto 0 auto;
+        width: 90%;
+       border-radius: 10px;
+    }
+  
+       
+}
+@media screen and (max-width : 380px) {
+    .box5{
+        height: 130px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .box7{
+        margin-top: 30px;
+    }
+    .right{
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width : 800px){
+    body{
+        background-color: rgb(103, 61, 21);
+        background-image: url('https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66653acb-df81-495a-a1e5-4b81a40c53f0/width=512/00151-StokeMcToke_Released_Stoked-UltraWide-v1-0_Stoked-UltraWide-v1-0_VAE-A_girl,_makoto_shinkai_style,_anime,_Japan_animation_background,_80mm_camera_lens,_wide_angle,_night_view_with_stars_and_large_m.jpeg');
+    }
+}

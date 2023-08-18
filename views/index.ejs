@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+
+ <%  if(!locals.wplace & !locals.content) {%>
+  <div class="box8"><span class="search1">Please enter the City/Town name on the searchbar <br> in order to get weather data. </span>
+  </div>
+       <% } %>
+<% if(locals.content) { %>
+  <div class="box8"><span class="search1"><%= locals.content %> <br> Please enter the correct location name...! </span>
+  </div>
+  <% } %>
+
+<%- include("partials/footer.ejs") %>
+ 

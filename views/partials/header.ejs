@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&amp;family=Bree+Serif&amp;family=Edu+SA+Beginner&amp;family=News+Cycle&amp;display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="/styles/main.css">
+    <script src="scripts/app.js"></script>
+</head>
+<body>
+  <% let currentTime = new Date().getHours(); %>
+
+  <% if (currentTime > 0 & currentTime < 4) { %>
+    <!-- Set the background image and color for sunrise time -->
+    <style>
+      body {
+        background-image: url("https://wallpapers.com/images/hd/dead-tree-anime-scenery-w6aozwbvxli22f3r.jpg");
+        background-color: rgb(27, 42, 77);
+   
+        color: black;
+      }
+     @media screen  and (max-width : 800px ){
+       body{
+        background-image: url('https://wallpaper.dog/large/10710511.jpg');
+        background-color: rgb(31, 119, 146);
+           }
+     }
+    </style>
+  <% } else if (currentTime >= 4 & currentTime < 12) { %>
+    <!-- Set the background image and color for daytime -->
+    <style>
+      body {
+        background-image: url('https://e0.pxfuel.com/wallpapers/1011/277/desktop-wallpaper-anime-scenery-anime-scenery-90s-anime.jpg');
+    background-color: rgb(16, 26, 48);
+        
+      }
+      @media screen  and (max-width : 800px ){
+        body{
+        background-image: url('https://wallpapers.com/images/hd/anime-park-scenery-1440-x-2960-n38b87g7hnd9vxmm.jpg');
+        color: black;
+        background-color: rgb(46, 77, 55);
+       }
+     }
+    </style>
+  <% } else if (currentTime >= 12 & currentTime < 14) { %>
+    <!-- Set the background image and color for evening time -->
+    <style>
+      body {
+        color: white;
+    background-image: url('https://wallpapers.com/images/hd/cute-anime-couple-holding-hands-sunset-6st7c0vnw0wffssj.jpg');
+    background-color: black;
+      }
+      @media screen  and (max-width : 800px ){
+        body{
+        color: aliceblue;
+        background-color: rgb(125, 43, 43);
+        background-image: url('https://w0.peakpx.com/wallpaper/5/399/HD-wallpaper-animated-sunset-animated-reflection-sun-sunset-water.jpg');
+       }
+     }
+    </style>
+  <% } %>
+  <div class="background">
+  <header class="py-3 mb-4" >
+    <div class="container d-flex flex-wrap justify-content-center">
+      
+      <form action="/" method="post" class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+        <input type="search" name="searchbar" class="form-control" placeholder="City/Town....   " aria-label="Search">
+      </form>
+    </div>
+  </header>
+
+  
